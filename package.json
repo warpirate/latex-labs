@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "AI-powered academic writing workspace — write, compile, and refine LaTeX papers with an integrated Claude assistant",
   "main": "dist/main/index.js",
-  "author": "warpirate",
+  "author": {
+    "name": "warpirate",
+    "email": "warpirate@users.noreply.github.com"
+  },
   "license": "MIT",
   "homepage": "https://github.com/warpirate/latex-labs#readme",
   "repository": {
