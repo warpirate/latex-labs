@@ -1,0 +1,34 @@
+appId: com.warpirate.latex-labs
+productName: LaTeX-Labs
+copyright: Copyright (c) 2025 warpirate
+
+directories:
+  output: release
+  buildResources: build
+
+files:
+  - dist/**/*
+
+win:
+  target:
+    - nsis
+    - portable
+  artifactName: "${productName}-${version}-Setup-${arch}.${ext}"
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  shortcutName: LaTeX-Labs
+
+mac:
+  target:
+    - dmg
+  category: public.app-category.productivity
+  artifactName: "${productName}-${version}-${arch}.${ext}"
+
+linux:
+  target:
+    - AppImage
+    - deb
+  category: Office
+  artifactName: "${productName}-${version}-${arch}.${ext}"

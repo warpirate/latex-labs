@@ -108,6 +108,27 @@ The app follows Electron security best practices:
 
 > **Note**: The AI assistant runs with `--dangerously-skip-permissions` to enable file editing. This is by design — Claude needs project file access to assist with writing.
 
+## Download
+
+Go to the [Releases](https://github.com/warpirate/latex-labs/releases) page and download the installer for your platform:
+
+| Platform | File |
+|----------|------|
+| Windows | `LaTeX-Labs-x.x.x-Setup-x64.exe` (installer) or `LaTeX-Labs-x.x.x-x64.exe` (portable) |
+| macOS | `LaTeX-Labs-x.x.x-x64.dmg` |
+| Linux | `LaTeX-Labs-x.x.x-x64.AppImage` or `.deb` |
+
+### Creating a Release
+
+To build and publish installers for all platforms:
+
+```bash
+git tag v1.0.0
+git push origin v1.0.0
+```
+
+This triggers the GitHub Actions [release workflow](.github/workflows/release.yml) which builds Windows (.exe), macOS (.dmg), and Linux (.AppImage, .deb) installers and publishes them as a GitHub Release.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and guidelines.
