@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc C:/Users/suhai/Downloads/Prism_by_OpenAI_Complete_Breakdown.docx -t markdown)",
+      "Bash(python scripts/office/unpack.py C:/Users/suhai/Downloads/Prism_by_OpenAI_Complete_Breakdown.docx /tmp/prism_unpacked/)",
+      "Bash(pandoc C:/Users/suhai/Downloads/Prism_by_OpenAI_Complete_Breakdown.docx -t plain)",
+      "Bash(pandoc --version)",
+      "Bash(find /d/open-claudeism -type f -name *.json -o -name *.md -o -name *.ts -o -name *.js -o -name *.py -o -name CLAUDE*)",
+      "Bash(npm list:*)",
+      "Bash(cargo --version)",
+      "Bash(npm --version)",
+      "Bash(pdflatex --version)",
+      "Bash(rustc --version)",
+      "Bash(find . -name .git* -o -name *.json -o -name *.md)",
+      "Bash(find ~/ -maxdepth 2 -type d -name *claude* -o -name *latex*)",
+      "Bash(find /c/Users/suhai/Downloads -name *Prism* -type f)",
+      "Bash(npm create:*)",
+      "Bash(npx --yes create-electron-vite@latest latex-labs -- --template react-ts)",
+      "Bash(npm install:*)",
+      "Bash(npx electron-vite:*)",
+      "Bash(npx electron:*)",
+      "Bash(npx electron-builder:*)",
+      "Bash(npx @electron/get)",
+      "Bash(node node_modules/electron/install.js)",
+      "Bash(ELECTRON_MIRROR=\"https://github.com/nicedoc/electron/releases/download/\" npm_config_electron_mirror=\"https://npmmirror.com/mirrors/electron/\" node -e \"require\\(''''electron/install''''\\)\")",
+      "Bash(node -e \"require\\(''electron/install''\\)\")",
+      "Bash(npm run:*)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s http://localhost:5173/src/renderer/main.tsx)",
+      "Bash(find /d/Projects/latex-labs/claudeism/apps/desktop/src -type f \\\\\\(-name *.ts -o -name *.tsx \\\\\\))",
+      "Bash(find /d/Projects/latex-labs/claudeism/apps/desktop/src-tauri/src -type f \\\\\\(-name *.rs \\\\\\))"
+    ]
+  }
+}

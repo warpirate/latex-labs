@@ -11,13 +11,8 @@ files:
 
 win:
   target:
-    - msi
     - nsis
   artifactName: "${productName}-${version}-${arch}.${ext}"
-
-msi:
-  oneClick: false
-  shortcutName: LaTeX-Labs
 
 nsis:
   oneClick: false
