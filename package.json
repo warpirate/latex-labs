@@ -1,8 +1,35 @@
 {
   "name": "latex-labs",
   "version": "1.0.0",
-  "description": "AI-powered academic writing workspace",
+  "description": "AI-powered academic writing workspace — write, compile, and refine LaTeX papers with an integrated Claude assistant",
   "main": "dist/main/index.js",
+  "author": "warpirate",
+  "license": "MIT",
+  "homepage": "https://github.com/warpirate/latex-labs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warpirate/latex-labs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/warpirate/latex-labs/issues"
+  },
+  "keywords": [
+    "latex",
+    "academic-writing",
+    "electron",
+    "react",
+    "ai",
+    "claude",
+    "tectonic",
+    "pdf",
+    "research",
+    "ieee",
+    "apa",
+    "acm"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "electron-vite dev",
     "build": "electron-vite build",

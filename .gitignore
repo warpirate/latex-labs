@@ -1,4 +1,53 @@
+# Dependencies
 node_modules/
+
+# Build output
 dist/
+out/
+build/
+*.tgz
+
+# Electron builder
+*.app/
+*.dmg
+*.exe
+*.msi
+*.AppImage
+*.snap
+*.deb
+*.rpm
+
+# Vite
+.vite/
+
+# TypeScript
+tsconfig.tsbuildinfo
+
+# Environment
 .env
+.env.local
+.env.*.local
+
+# Logs
 *.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.turbo/
